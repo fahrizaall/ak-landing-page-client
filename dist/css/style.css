@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.next-testimoni {
+  @apply hidden -right-96 opacity-0
+}
+.prev-testimoni {
+  @apply hidden -left-32 opacity-0
+}
+.current-testimoni {
+  @apply block left-0 right-0 opacity-100 
+}
+.testimoni {
+  @apply transition-all
+}
+
+.handle-active {
+  @apply bg-primary
+}
+.handle-inactive {
+  @apply bg-gray-600
+}
