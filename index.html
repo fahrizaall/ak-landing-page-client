@@ -21,23 +21,23 @@
   
 
   <script>
-    $('#navbar').load('/components/navbar.html')
-    $('#content').load('/pages/home.html')
+    $('#navbar').load('./components/navbar.html')
+    $('#content').load('./pages/home.html')
 
     // Pages
     function login() {
-      $('#content').load('/pages/login.html')
+      $('#content').load('./pages/login.html')
     }
     function register() {
-      $('#content').load('/pages/register.html')
+      $('#content').load('./pages/register.html')
     }
     function home() {
-      $('#content').load('/pages/home.html')
+      $('#content').load('./pages/home.html')
     }
 
     // Action
     function pesan() {
-      $('#alert').load('/components/alert.html')
+      $('#alert').load('./components/alert.html')
     }
     function tutupPesan() {
       $('#alert').empty()
