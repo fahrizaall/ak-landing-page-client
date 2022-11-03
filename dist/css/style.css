@@ -21,3 +21,7 @@
 .handle-inactive {
   @apply bg-gray-600
 }
+
+.semi-trans{
+  background-color: rgba(255, 255, 255, 0.726);
+}

@@ -5,254 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./dist/output.css">
+  <link rel="icon" type="image/x-icon" href="dist/img/company logo.svg">
+  <script src="libs/jquery-3.6.1.js"></script>
 </head>
 <body>
-  <!-- Hero Section -->
-  <section class="bg-primary h-screen flex">
-    <div class="container text-white self-center items-center flex flex-row flex-wrap gap-8">
-      <div class="w-full lg:w-2/3">
-        <img src="./dist/img/company logo.svg" alt="company-logo" class="w-16">
-        <h1 class="text-3xl font-semibold mb-2 md:text-6xl">Jasa Pembuatan Website Dengan Fitur Lengkap</h1>
-        <p class="text-slate-300 mb-6">
-          Wujudkan website impian anda dengan berbagai fitur di dalamnya dengan harga yang terjangkau
-        </p>
-        <button class="bg-secondary text-slate-900 font-medium px-4 py-1 rounded-md">Pesan Sekarang</button>
-      </div>
-      <div class="w-full relative flex justify-end xl:block">
-        <img src="./dist/img/hero image.png" alt="hero-img" class="lg:absolute w-full sm:w-[450px] lg:w-[600px] lg:-top-96 right-0">
-      </div>
-    </div>
-  </section>
-  <!-- End Hero Section -->
-
-  <!-- Kenapa Harus Kami Section -->
-  <section class="my-28">
-    <div class="container">
-      <h2 class="text-3xl font-semibold text-center mb-8 lg:mb-10">Kenapa Harus Kami</h2>
-      <div class="flex flex-wrap gap-y-8 lg:gap-y-4">
-        <div class="w-full md:w-1/2 lg:w-1/4">
-          <div class="w-full p-2 text-center">
-            <img class="m-auto" src="./dist/img/clock-icon.svg" alt="">
-            <h3 class="text-primary font-bold text-lg">Cepat</h3>
-            <p class="">Kami memastikan website anda sudah selesai dan dapat digunakan dalam waktu 3 hari</p>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/4">
-          <div class="w-full p-2 text-center">
-            <img class="m-auto" src="./dist/img/responsive-icon.svg" alt="">
-            <h3 class="text-primary font-bold text-lg">Responsive</h3>
-            <p class="">Website anda akan terlihat menarik dilihat dari semua device mulai dari dekstop, tablet, sampai mobile</p>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/4">
-          <div class="w-full p-2 text-center">
-            <img class="m-auto" src="./dist/img/murah-icon.svg" alt="">
-            <h3 class="text-primary font-bold text-lg">Murah</h3>
-            <p class="">Website yang berkualitas tidak harus menjadi website yang mahal. </p>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/4">
-          <div class="w-full p-2 text-center">
-            <img class="m-auto" src="./dist/img/seo-icon.svg" alt="">
-            <h3 class="text-primary font-bold text-lg">SEO Friendly</h3>
-            <p class="">Kami akan membuat website anda di tampilkan paling atas pada hasil pencarian google</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Kenapa Harus Kami Section -->
-
-  <!-- Bagaimana Bekerja Dengan Kami Section -->
-  <section class="my-16 py-16 bg-secondary">
-    <div class="container">
-      <h2 class="text-3xl font-semibold text-center mb-8 lg:mb-10">Bagaimana Bekerja Dengan Kami</h2>
-      <div class="flex flex-wrap lg:flex-row lg:h-56">
-        <div class="w-full md:w-1/2 lg:w-1/4">
-          <div class="flex h-20 lg:h-24 mb-4 md:px-2 font-medium">
-            <span class="bg-primary text-white px-4 rounded-l-xl py-2">1</span>
-            <p class="bg-white rounded-r-xl w-full py-2 px-2">Client Menjelaskan Website Yang Ingin Dibuat</p>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/4 self-end">
-          <div class="flex h-20 lg:h-24 mb-4 md:px-2 font-medium">
-            <span class="bg-primary text-white px-4 rounded-l-xl py-2">2</span>
-            <p class="bg-white rounded-r-xl w-full py-2 px-2">Tim kami membuat website yang diinginkan client</p>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/4">
-          <div class="flex h-20 lg:h-24 mb-4 md:px-2 font-medium">
-            <span class="bg-primary text-white px-4 rounded-l-xl py-2">3</span>
-            <p class="bg-white rounded-r-xl w-full py-2 px-2">Tim kami dan client mendiskusikan website yang akan di deploy</p>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/4 self-end">
-          <div class="flex h-20 lg:h-24 mb-4 md:px-2 font-medium">
-            <span class="bg-primary text-white px-4 rounded-l-xl py-2">4</span>
-            <p class="bg-white rounded-r-xl w-full py-2 px-2">Website di deploy dan dapat diakses melalui internet</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Bagaimana Bekerja Dengan Kami Section -->
-
-  <!-- Paket Yang Kami Tawarkan Section -->
-  <section class="my-12 py-12">
-    <div class="container">
-      <h2 class="text-3xl font-semibold text-center mb-10">Paket Yang Kami Tawarkan</h2>
-      <div class="w-[400px] md:w-full whitespace-nowrap overflow-x-scroll lg:overflow-hidden" id="list-paket">
-        <div class="w-[350px] inline-block lg:w-1/3" id="startup">
-          <div class="lg:px-2">
-            <div class="bg-slate-100 py-4 rounded-lg">
-              <h3 class="text-center font-semibold text-xl">START UP</h3>
-              <p class="text-center font-bold text-4xl my-4">Rp 830.000</p>
-              <div class="px-8 my-8 mb-16">
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> 3 Halaman Website</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Responsive Website</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Secure Website</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> SEO Friendly</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Domain & Hosting</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Content Upload</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Unlimited Revision</p>
-              </div>
-              <div class="w-fit mx-auto mb-6">
-                <button class="bg-secondary text-slate-900 font-medium text-lg px-4 py-1 rounded-md">Pesan Sekarang</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-[350px] inline-block lg:w-1/3" id="premium">
-          <div class="lg:px-2">
-            <h1 class="bg-secondary text-primary text-2xl py-1 rounded-t-lg font-semibold text-center">Paket Terlaris</h1>
-            <div class="bg-primary text-white py-4 rounded-b-lg">
-              <h3 class="text-center font-semibold text-xl">PREMIUM</h3>
-              <p class="text-center font-bold text-4xl my-4">Rp 1.190.000</p>
-              <div class="px-8 my-8">
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> 5 Halaman Website</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Responsive Website</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Secure Website</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> SEO Friendly</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Domain & Hosting</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Content Upload</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Unlimited Revision</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> 1 Bulan Free Maintanance</p>
-              </div>
-              <div class="w-fit mx-auto mb-6">
-                <button class="bg-secondary text-slate-900 font-medium text-lg px-4 py-1 rounded-md">Pesan Sekarang</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-[350px] inline-block lg:w-1/3" id="pro">
-          <div class="lg:px-2">
-            <div class="bg-slate-100 py-4 rounded-lg">
-              <h3 class="text-center font-semibold text-xl">PRO</h3>
-              <p class="text-center font-bold text-4xl my-4">Rp 2.145.000</p>
-              <div class="px-8 my-8">
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> 10 Halaman Website</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Responsive Website</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Secure Website</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> SEO Friendly</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Domain & Hosting</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Content Upload</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> Unlimited Revision</p>
-                <p class="flex mb-2"><img src="./dist/img/check_circle.svg" alt="check-icon" class="mr-2 w-5"> 1 Bulan Free Maintanance</p>
-              </div>
-              <div class="w-fit mx-auto mb-6">
-                <button class="bg-secondary text-slate-900 font-medium text-lg px-4 py-1 rounded-md">Pesan Sekarang</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Paket Yang Kami Tawarkan Section -->
-
-  <!-- Klien Kami Section -->
-  <section class="my-12 pt-12 pb-20 bg-primary">
-    <div class="container">
-      <h2 class="text-3xl font-semibold text-center mb-10 text-white">Klien Kami</h2>
-      <img src="./dist/img/klien.png" alt="klient">
-    </div>
-  </section>
-  <!-- End Klien Kami Section -->
-
-  <!-- Apa Kata Mereka Section -->
-  <section class="mt-12 mb-16 py-12">
-    <div class="container">
-      <h2 class="text-3xl font-semibold text-center mb-10">Apa Kata Mereka</h2>
-      <div class="relative w-full h-[269px] md:w-2/3 lg:w-1/2 m-auto">
-        <div class="right-0 bg-primary text-white w-full min-h-[269px] p-8 rounded-2xl testimoni current-testimoni absolute top-0">
-          <div class="flex">
-            <img src="./dist/img/profil 1.png" alt="profil1" class="w-[85px] rounded-full">
-            <div class="ml-4 mt-2">
-              <h4 class="font-semibold text-2xl text-secondary">Budi Saputra</h4>
-              <p class="opacity-50 text-sm">CEO kapanlagi.co.id</p>
-            </div>
-          </div>
-          <div class="mt-6 px-4">
-            <p>Walaupun saya bawel banyak revisi team resolusiweb tetap memberikan pelayanan yang prima.</p>
-          </div>
-        </div>
-        <div class="right-0 bg-primary text-white w-full min-h-[269px] p-8 rounded-2xl testimoni next-testimoni absolute top-0">
-          <div class="flex">
-            <img src="./dist/img/profil 5.png" alt="profil1" class="w-[85px] rounded-full">
-            <div class="ml-4 mt-2">
-              <h4 class="font-semibold text-2xl text-secondary">Saputra</h4>
-              <p class="opacity-50 text-sm">CEO lagilagi.co.id</p>
-            </div>
-          </div>
-          <div class="mt-6 px-4">
-            <p>Sangat memuaskan, semua keinginan yg saya mau untuk pembuatan web dapat dilakukan.</p>
-          </div>
-        </div>
-        <div class="right-0 bg-primary text-white w-full min-h-[269px] p-8 rounded-2xl testimoni next-testimoni absolute top-0">
-          <div class="flex">
-            <img src="./dist/img/profil 2.png" alt="profil1" class="w-[85px] rounded-full">
-            <div class="ml-4 mt-2">
-              <h4 class="font-semibold text-2xl text-secondary">Putri Ayu</h4>
-              <p class="opacity-50 text-sm">CEO kapankapan.co.id</p>
-            </div>
-          </div>
-          <div class="mt-6 px-4">
-            <p>Sangat memuaskan, walaupun saya bawel banyak revisi team resolusiweb tetap memberikan pelayanan yang prima.</p>
-          </div>
-        </div>
-        <div class="right-0 bg-primary text-white w-full min-h-[269px] p-8 rounded-2xl testimoni next-testimoni absolute top-0">
-          <div class="flex">
-            <img src="./dist/img/profil 3.png" alt="profil1" class="w-[85px] rounded-full">
-            <div class="ml-4 mt-2">
-              <h4 class="font-semibold text-2xl text-secondary">Aisyah</h4>
-              <p class="opacity-50 text-sm">CEO lorem.co.id</p>
-            </div>
-          </div>
-          <div class="mt-6 px-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, exercitationem.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-full py-3 flex justify-center gap-x-2">
-        <button onclick="handleTestimoni(0)" class="w-2 h-2 rounded-full bg-gray-500 handle handle-active"></button>
-        <button onclick="handleTestimoni(1)" class="w-2 h-2 rounded-full bg-gray-500 handle "></button>
-        <button onclick="handleTestimoni(2)" class="w-2 h-2 rounded-full bg-gray-500 handle "></button>
-        <button onclick="handleTestimoni(3)" class="w-2 h-2 rounded-full bg-gray-500 handle "></button>
-      </div>
-    </div>
-  </section>
-  <!-- End Apa Kata Mereka Section -->
-
-  <!-- Footer Section -->
-  <footer class="bg-primary py-2">
-    <div class="w-fit m-auto">
-      <a href="https://fahrizaall.github.io/portfolio/" target="_blank" class="text-white opacity-75 text-sm">&#169; 2022 | Muhammad Fahrizal</p>
-    </div>
-  </footer>
-  <!-- End Footer Section -->
+  <div id="alert"></div>
+  <div id="navbar"></div>
+  <div id="content"></div>
 
   <script src="./dist/js/script.js"></script>
+  
+
+  <script>
+    $('#navbar').load('/components/navbar.html')
+    $('#content').load('/pages/home.html')
+
+    // Pages
+    function login() {
+      $('#content').load('/pages/login.html')
+    }
+    function register() {
+      $('#content').load('/pages/register.html')
+    }
+    function home() {
+      $('#content').load('/pages/home.html')
+    }
+
+    // Action
+    function pesan() {
+      $('#alert').load('/components/alert.html')
+    }
+    function tutupPesan() {
+      $('#alert').empty()
+    }
+  </script>
 </body>
 </html>

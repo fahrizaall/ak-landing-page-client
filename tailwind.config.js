@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['*.html'],
+  content: ['*.html','components/*.html','pages/*.html'],
   theme: {
     container: {
       center: true,
@@ -12,6 +12,9 @@ module.exports = {
         secondary: '#00FFAD',
       }
     },
+    fontFamily: {
+      marvel: ['Marvel', 'sans-serif']
+    }
   },
   plugins: [],
 }
